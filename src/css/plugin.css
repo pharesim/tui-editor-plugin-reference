@@ -1,0 +1,13 @@
+.reference-rendered {
+	color: blue;
+    vertical-align: super;
+    font-size: x-small;
+}
+
+.reference-rendered:after {
+	content: "]";
+}
+  
+.reference-rendered:before {
+	content: "[* ";
+}

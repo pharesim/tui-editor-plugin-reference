@@ -1,0 +1,30 @@
+{
+  "name": "tui-editor-plugin-reference",
+  "version": "1.0.0",
+  "description": "This is a plugin of [TOAST UI Editor](https://github.com/nhn/tui.editor/tree/master/apps/editor) to include references.<br> based on [@paerck25/tui-editor-plugin-font-size](https://github.com/paerck25/tui-editor-plugin-font-size)",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paerck25/tui-editor-plugin-font-size.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paerck25/tui-editor-plugin-font-size/issues"
+  },
+  "homepage": "https://github.com/paerck25/tui-editor-plugin-font-size#readme",
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "css-loader": "^6.10.0",
+    "css-minimizer-webpack-plugin": "^6.0.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "ts-loader": "^9.5.1"
+  }
+}
